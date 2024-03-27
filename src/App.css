@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
 
+body{
+    background: url("./assets/bg4.png") no-repeat center;
+    background-size: cover;
+}
+
 .font {
     font-family: "Fjord One", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
+.whiteBg{
+    background: #fff;
+}
+
+.bgImage{
+
+}

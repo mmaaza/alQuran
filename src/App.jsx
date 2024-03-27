@@ -9,6 +9,7 @@ import Login from './Pages/Login'
 import Signup from './Pages/Signup'
 import Forgot from './Pages/Forgot'
 import Profile from './Pages/Profile'
+import JuzDetail from "./Pages/juzDetail.jsx";
 import Private from './Components/PrivateRoute'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -29,7 +30,7 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/sign-up' element={<Signup/>}/>
       <Route path='/resetpassword' element={<Forgot/>}/>
-      
+      <Route path='/juz-detail' element={<JuzDetail/>}/>
       <Route path='/profile' element={<Private/>}>
       <Route path='/profile' element={<Profile/>}/>
       </Route>

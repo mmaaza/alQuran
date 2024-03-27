@@ -22,7 +22,7 @@ export default function Header() {
   })
   return (
     <>
-    <div className='bg-[#008DDA] py-2 flex md:space-x-60 text-white text-center px-2 font'>
+    <div className='bg-[#008DDA] py-2 flex justify-around text-white text-center px-2 font'>
      <div className='text-white md:text-xl cursor-pointer md:inline-block hidden' onClick={() => navi('/')}>
       Logo here
      </div>
